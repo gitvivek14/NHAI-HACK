@@ -1,5 +1,9 @@
 # NHAI FieldAuth
 
+## Demo Video
+
+[Watch the NHAI FieldAuth demo video](https://drive.google.com/file/d/1s22ei706Eb2AIR2U1BScVGqvlZPQtBms/view?usp=sharing)
+
 Android-first hackathon prototype for offline field attendance using on-device
 face verification, liveness checks, local queueing, and backend sync.
 
@@ -196,4 +200,3 @@ npm run admin:build
 
 - Android is the primary demo target.
 - Backend is a local MVP service, not production AWS infrastructure.
-
