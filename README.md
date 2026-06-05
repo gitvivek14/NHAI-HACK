@@ -196,9 +196,4 @@ npm run admin:build
 
 - Android is the primary demo target.
 - Backend is a local MVP service, not production AWS infrastructure.
-- Biometric storage is suitable for a hackathon prototype, not certified
-  production biometric storage.
-- Anti-spoofing is challenge/heuristic based; it is not a dedicated production
-  spoof classifier.
-- Accuracy must be measured with a real benchmark dataset before making
-  performance claims.
+
