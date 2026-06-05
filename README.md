@@ -12,7 +12,7 @@ attendance queue, and synced to a supervisor dashboard when connectivity returns
 - `mobile/`: Bare React Native TypeScript Android app.
 - `backend/`: Node.js/Express sync API.
 - `admin/`: React/Vite supervisor dashboard.
-- `docs/`: Architecture, setup, demo script, model notes, and benchmark plan.
+- `docs/`: Architecture, setup, and model notes.
 - `scripts/`: Offline evaluation helper script.
 
 ## Implemented Demo Features
@@ -167,6 +167,16 @@ mobile/android/app/build/outputs/apk/release/app-release.apk
 10. Refresh or wait for the admin dashboard to show the synced event.
 11. Purge synced local events while keeping enrollment data.
 
+## Product Screenshots
+
+| Home | Enroll |
+| --- | --- |
+| ![NHAI FieldAuth home screen](screenshots/Home.jpeg) | ![Worker enrollment screen](screenshots/Enroll.jpeg) |
+
+| Verify | Sync |
+| --- | --- |
+| ![Worker verification screen](screenshots/Verify.jpeg) | ![Attendance sync screen](screenshots/Sync.jpeg) |
+
 ## Verification Commands
 
 ```bash
@@ -179,12 +189,8 @@ npm run admin:build
 ## Documentation
 
 - [Setup Guide](docs/SETUP.md)
-- [Demo Script](docs/DEMO_SCRIPT.md)
 - [Technical Architecture](docs/TECHNICAL_ARCHITECTURE.md)
 - [Model Assets](docs/MODEL_ASSETS.md)
-- [Benchmark Plan](docs/BENCHMARK_PLAN.md)
-- [Implementation Notes](docs/IMPLEMENTATION_NOTES.md)
-- [Hackathon Pitch](docs/HACKATHON_PITCH.md)
 
 ## Current Limitations
 
@@ -194,5 +200,5 @@ npm run admin:build
   production biometric storage.
 - Anti-spoofing is challenge/heuristic based; it is not a dedicated production
   spoof classifier.
-- Accuracy must be measured with the benchmark plan before making performance
-  claims.
+- Accuracy must be measured with a real benchmark dataset before making
+  performance claims.
