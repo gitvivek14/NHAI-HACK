@@ -1,0 +1,16 @@
+{
+  "name": "nhai-fieldauth-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "mobile:start": "npm --prefix mobile run start",
+    "mobile:android": "npm --prefix mobile run android:java17",
+    "mobile:typecheck": "npm --prefix mobile run typecheck",
+    "mobile:test": "npm --prefix mobile run test",
+    "backend:start": "npm --prefix backend run start",
+    "backend:test": "npm --prefix backend run test",
+    "admin:dev": "npm --prefix admin run dev",
+    "admin:build": "npm --prefix admin run build",
+    "benchmark": "node scripts/evaluate-faceauth.mjs"
+  }
+}

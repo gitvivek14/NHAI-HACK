@@ -1,0 +1,135 @@
+:root {
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  color: #17212b;
+  background: #f4f7f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  min-height: 100vh;
+  padding: 28px;
+}
+
+.topbar {
+  background: #17212b;
+  color: #fff;
+  border-radius: 8px;
+  padding: 22px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: #aebbc5;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+button {
+  min-height: 40px;
+  border: 0;
+  border-radius: 8px;
+  background: #7bd8b2;
+  color: #17212b;
+  font-weight: 800;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.metrics,
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.metric,
+.panel {
+  background: #fff;
+  border: 1px solid #d8e0dc;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(23, 33, 43, 0.06);
+}
+
+.metric {
+  padding: 16px;
+}
+
+.metric strong {
+  display: block;
+  font-size: 30px;
+}
+
+.metric span {
+  color: #64717d;
+  font-weight: 700;
+}
+
+.metric.good {
+  background: #eef9f4;
+}
+
+.metric.bad {
+  background: #fff0f0;
+}
+
+.panel {
+  margin-top: 18px;
+  padding: 18px;
+}
+
+.panelHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.panelHeader span,
+.empty {
+  color: #64717d;
+  font-weight: 700;
+}
+
+.tableWrap {
+  overflow-x: auto;
+  margin-top: 14px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px 10px;
+  border-bottom: 1px solid #d8e0dc;
+  white-space: nowrap;
+}
+
+th {
+  color: #64717d;
+  font-size: 12px;
+  text-transform: uppercase;
+}
