@@ -32,18 +32,6 @@ attendance queue, and synced to a supervisor dashboard when connectivity returns
 - USB backend preset for local demo using `adb reverse`.
 - Verified success screen with green confirmation state after a match.
 
-## Important Accuracy Note
-
-Do not claim production-grade accuracy or 95%+ accuracy from this repository
-unless you run a real benchmark dataset and include the measured result.
-
-Recommended demo wording:
-
-```text
-Target accuracy: above 95%.
-Current measured result: pending pilot benchmark.
-The repository includes the evaluation harness and model integration path.
-```
 
 ## Prerequisites
 
